@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netGRPCServer", "netGRPCServer.csproj", "{5CF2F938-5083-4D3B-9FFA-569BADFB9701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CF2F938-5083-4D3B-9FFA-569BADFB9701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF2F938-5083-4D3B-9FFA-569BADFB9701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF2F938-5083-4D3B-9FFA-569BADFB9701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF2F938-5083-4D3B-9FFA-569BADFB9701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

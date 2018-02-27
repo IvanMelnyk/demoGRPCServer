@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.5.0" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.5.0" />
+    <PackageReference Include="Grpc" Version="1.8.0" />
+    <PackageReference Include="Grpc.Core" Version="1.8.0" />
+    <PackageReference Include="Grpc.Tools" Version="1.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1-beta1" />
+    <PackageReference Include="Npgsql" Version="3.2.6" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tools\" />
+    <Folder Include="api\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+</Project>
